@@ -1,0 +1,6 @@
+company_id,created_By,department,designation,email,employee_joiningDate,first_name,insurance_plan_name,ip_Address,isType,last_name,reporting_Manager,role,updated_By,user_id,working_HoursFrom,working_HoursTo,Annual leave,Medical leave,Study leave,Basic Pay,Accommodation Allowance,Food Allowance
+57,153,Research and Development,Asst Vice President,latishg.iimb@gmail.com,2021-02-28T18:30:00.000Z,Latish,95,123,0,G IIMB,Latish G Outlook,0,153,186,09:00,17:00,28,10,10,10000,1000,200
+57,153,Management,Vice President,latishg@outlook.com,2021-02-28T18:30:00.000Z,Latish,95,123,0,G Outlook,153,0,153,185,10:00,18:00,28,10,10,12000,4000,1500
+57,153,Human Resources,CPO,latishgg@gmail.com,,Latish GG,95,123,0,HR Admin,153,41,153,177,10:00,18:00,28,10,10,15000,3000,2000
+-----,,,,,,,,,,,,,,,,,,,,,,
+-----,,,,,,,,,,,,,,,,,,,,,,

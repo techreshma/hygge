@@ -1,0 +1,25 @@
+# m h  dom mon dow   command
+#*/01 * * * * curl http://15.207.25.139/apinew/test
+*/03 * * * * curl http://15.207.25.139/apinew/runCron
+*/06 * * * * curl http://15.207.25.139/apinew/update-ranking
+*/03 * * * * curl http://15.207.25.139/apinew/update-match-point
+*/01 * * * * curl http://15.207.25.139/apinew/update-score
+*/02 * * * * curl http://15.207.25.139/apinew/get-match-after-toss
+*/04 * * * * curl http://15.207.25.139/apinew/update-contest-virtual
+*/05 * * * * curl http://15.207.25.139/apinew/get-select-by-percentage
+*/30 * * * * curl http://15.207.25.139/apinew/calculate-winner
+*/55 * * * * curl http://15.207.25.139/apinew/send-winner-noti
+*/30 * * * * curl http://15.207.25.139/apinew/add-master-contests
+#*/10 * * * * curl http://15.207.25.139/apinew/send-prediction-notification
+#*/60 * * * * curl http://15.207.25.139/apinew/send-prediction-notification-admin
+*/06 * * * * curl http://15.207.25.139/apinew/update-ranking-reverse
+*/10 * * * * curl http://15.207.25.139/apinew/get-squads-url
+0    0 * * * curl http://15.207.25.139/apinew/get-upcoming-matchs
+* * * * * curl http://15.207.25.139/apinew/virtual-team-management
+*/05 * * * * curl http://15.207.25.139/apinew/cron-for-prize-distribution
+*/05 * * * * curl http://15.207.25.139/apinew/cancel-the-contest-after-match-live
+*/05 * * * * curl http://15.207.25.139/apinew/do-live
+
+
+
+* * * * * curl http://mail.stylecabbie.in/send-mail-campaign

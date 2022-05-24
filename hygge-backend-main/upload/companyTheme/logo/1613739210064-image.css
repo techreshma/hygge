@@ -1,0 +1,209 @@
+img.img {
+    height: 86%;
+    width: 86%;
+}
+h3 {
+    font-weight: 700;
+    font-size: 28px;
+}
+p.login {
+    font-size: 16px;
+    margin-left: 30px;
+    font-weight: 500;
+}
+.top {
+    margin-top: 23%;
+}
+p.forget-pass {
+    padding: 0 0 0 17%;
+    font-size: 12px;
+}
+button.sign-btn {
+    width: 68%;
+    height: 5%;
+    border-radius: 33px;
+    font-weight: 700;
+}
+.input-group {
+    width: 68%;
+}
+.input-group-text {
+    border-top-left-radius: 21px !important;
+    border-bottom-left-radius: 20px !important;
+    height: 42px;
+    background: #fff !important;
+    border: 1px solid #fff;
+}
+span.eye {
+    border-top-right-radius: 21px;
+    border-bottom-right-radius: 21px;
+    border-bottom-left-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+}
+input.input {
+    border-top-right-radius: 21px;
+    border-bottom-right-radius: 21px;
+    margin: 0 0 28px 0;
+    height: 42px;
+    border: 1px solid #fff;
+}
+input.input1 {
+    border-top-right-radius: 21px;
+    border-bottom-right-radius: 21px;
+    margin: 0 0 28px 0;
+    height: 42px;
+    border: 1px solid #fff;
+}
+input.input1 {
+    margin: 0 0 0 0 !important;
+}
+.back-color {
+    background: #edf4fc;
+}
+h3 {
+    font-weight: 700;
+    font-size: 28px;
+    margin-left: 21px;
+}
+/* ------------ */
+p.forget-password {
+    font-size: 16px;
+    margin-left: 7%;
+    font-weight: 500;
+}
+.top-forget {
+    margin-top: 23%;
+}
+p.account {
+    margin: -18px 0 31px 18%;
+    font-weight: 500;
+    font-size: 16px;
+}
+form.form {
+    margin: 0 0 0 13%;
+}
+
+button.reset-btn{   
+    width: 59%;
+    height: 5%;
+    border-radius: 33px;
+    font-weight: 700;
+    margin: 0 0 0 13%;
+}
+/* --------- */
+.back-color {
+    background: #edf4fc;
+}
+.side-back {
+    background: #ffc107;
+    margin: 19px;
+    border-radius: 11px;
+    overflow: auto;
+    height: 100vh;
+    box-shadow: 0 0 25px 0 #00000021;
+}
+img.img{
+    width: 92%;
+    margin: 10px;
+    height: 16%;
+}
+h3.new-pass {
+    font-weight: 700;
+    font-size: 28px;
+    margin-left: 2px;
+}
+p.second {
+        font-size: 14px;
+        margin-left: 10%;
+        font-weight: 500;
+}
+.top {
+    margin-top: 23%;
+}
+button.reset-btn {
+    width: 68%;
+    height: 5%;
+    border-radius: 33px;
+    font-weight: 700;
+    margin-top: 3%;
+    margin-left: 3px;
+}
+p.account {
+    margin: -18px 0 31px 15%;
+    font-weight: 500;
+    font-size: 14px;
+}
+/* ----------------- */
+p.dashboard {
+    padding: 3% 0 0 9%;
+    font-weight: 700;
+    cursor: pointer;
+}
+p.about {
+    padding: 3% 0 0 9%;
+    font-weight: 600;
+    cursor: pointer;
+}
+p.company {
+    padding: 3% 0 15px 9%;
+    font-weight: 600;
+    cursor: pointer;
+}
+.nav-bar {
+    background: #fff;
+    margin: 2% 5% 0 0;
+    height: 49px;
+    border-radius: 9px;
+    box-shadow: 0 0 25px 0 #0000001a;
+}
+p.nav-head {
+    padding: 10px 0 0 3%;
+    font-weight: 600;
+}
+p.nav-user {
+    padding: 8% 0 0 6%;
+    font-weight: 600;
+}
+.top {
+    margin: 3% 0 0 0;
+}
+.task {
+    background: url("./image/icon-07.png");
+    width: 100%;
+    height: 239px;
+    background-size: cover;
+}
+.task1 {
+    background: url("./image/icon-08.png");
+    width: 100%;
+    height: 239px;
+    background-size: cover;
+}
+img.img2 {
+    margin: 16% 0 0 32%;
+}
+img.img3 {
+    margin: 16% 0 0 34%;
+}
+p.comp {
+    margin: 3% 0 0 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+p.number {
+    font-weight: 700;
+}
+.hov:hover {
+    font-weight: 700 !important;
+}
+.btn-check:active+.btn-secondary, .btn-check:checked+.btn-secondary, .btn-secondary.active, .btn-secondary:active, .show>.btn-secondary.dropdown-toggle {
+    color: #000;
+    background-color: #fff;
+    border-color: #fff;
+    font-weight: 500;
+    font-size: 12px;
+}
+.show {
+    margin: 4% 0 0 9%;
+    font-weight: 600;
+}

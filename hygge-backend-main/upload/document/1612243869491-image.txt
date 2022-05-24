@@ -1,0 +1,171 @@
+sudo gem install bundle
+
+cd android and ios
+
+bundle init
+
+then update gem "rails" to gem "fastlane"
+
+bundle update
+
+bundle exec fastlane produce
+
+bundle exec fastlane init
+
+here we have to do seee the changes and fatlane folder inside ios directory
+
+bundle exec fastlane match init
+
+bundle exec fastlane match appstore
+
+After set uncheck on sigining and setup code signin
+
+xcode clean build -project ProjectName.xcodeproj -configuration Release -scheme ProjectName
+
+IOS->fastfile in fastlance folder for release -> "uncomment" match section
+increment_build_number (Above match (type: "appstore"))
+below pilot need to add "clean_build_artifacts"
+and 
+commit_version_bump(
+	message: "Fastlance iOS: Release new build #{lane_context[SharedValues::BUILD_NUMBER]} [ci skip]"
+	xcodeproj: "./ProjectName.xcodeproj"
+	force: true
+)
+and change on pilot action
+pilot(
+	skip_watiing_for_building_processing: true
+)
+
+from ios project
+
+bundle exec fastlane beta (ryih-qirc-ofqi-iwou)
+
+ICON Generation on IOS and put manually on XCODE
+
+Need to remove Import Compilance Error need to add few line in info.plist file in IOS folder
+
+<key>ITSAppUsesNonExemptEncryption</key>
+<false/>
+
+Cocopods
+
+yarn add react-native-lock and react-native link react-native-lock
+
+add this Pods directory on .gitignore file
+ios/Pods
+ios/Podfile.lock
+
+
+Now need to set on fastfile inside fastlance
+
+in beta late
+
+change 
+cocoapods
+gym(
+	scheme: "ProjectName",
+	workspace: "./ProjectName.xcworkspace"
+)
+
+
+in Gemfile need to add in ios folder
+
+gem "cocoapods"
+
+
+
+Android
+
+First need to create project on Google Play then
+in Android folder need to do that
+command: bundle init
+then update gem "rails" to gem "fastlane"
+command: bundle update
+
+> bundle exec fastlance init
+
+
+then neeed to follow the steps https://www.udemy.com/course/automate-your-react-native-releases-with-fastlane-and-bitrise/learn/lecture/7599336#content
+
+generate keystore file as IOS or other
+
+add this block into the android/app/build.gradle file
+signingConfigs {
+	release {
+		storeFile: 'keystore path'
+		storePassword: 'storepasswod'
+		keyAlias: 'alias'
+		keyPassword: 'password we set'
+	}
+}
+and 
+buildTypes {
+	release {
+		..
+		..
+		signingConfigs signingConfigs.release
+	}
+}
+
+
+terminal android project folder
+
+./gradlew assembleRelease
+
+
+before your first relase need to do manually
+
+need to get api access from the setting in playstore 
+
+create service in api access and create a service 
+
+provide secret account name and role service account acotor
+
+finish a private key -> key type json and create
+
+need to grand access of the service account with release manager access
+
+put the json file into the secure folder with keystore 
+
+need to verify the icon before autmate the build
+
+Now for autobuild for next relase following commands are
+
+bundle exec fastlane supply init
+	need to put the json file
+
+in android/fastlane and put the path of secure folder of json file on Appfile json_key_file.
+
+Need to change version number and version code
+
+build exec fastlance add_plugin increment_version_code
+y for question
+
+automated added into the Genfile and Pluginfile
+
+add content in Fastfile
+
+desc "Deploy a new alpha version on playstore"
+lane :alpha do
+	increment_version_code(
+		gradle_file_path: "./app/build.gradle"
+	)
+	gradle(task: "assembleRelease")
+
+	supply(
+		trach: "alpha",
+		apk: "#{lane_context[SharedValues::GRADLE_APK_OUTPUT_PATH]}"
+	)
+
+	git_commit(
+		path: "./app/build.gradle"
+		message: "Fastlance Android Release new build #{version_code} [ci skip]"
+	)
+end
+
+bundle exec fastlane alpha
+
+
+Add Tester in Release management and add tester
+
+

@@ -1,0 +1,71 @@
+ Salary Report 
+Sno,Payslip Id,Department,name,dateOfJoining,department,designation,workLocation,Basic Pay,Accommodation ,Communication,Net Salary,Month
+1,1,Production,Test  A,2021-02-02T18:30:00.000Z,Production,Finance Manager,,21000,1000,500,22500,02/2021,joh@gmail.com
+2,2,,Mac  employee,,,,,,,,0,02/2021,joh@gmail.com
+3,3,HR,johnii doeiii,29-01-2021,HR,President,,,,,0,02/2021,joh@gmail.com
+4,4,Production,piyush sharma,2021-01-31T18:30:00.000Z,Production,General Manager,,10000,1500,1500,13000,02/2021,joh@gmail.com
+5,5,Developer,W1 W1,2021-01-29,Developer,Officer,,1999,13333,13333,28665,02/2021,joh@gmail.com
+6,6,Production,TT2 t2,2021-01-29T18:30:00.000Z,Production,President,,1000,1000,1000,3000,02/2021,joh@gmail.com
+7,7,abc,Nikki Joshi,2021-01-30T18:30:00.000Z,abc,President,,1000,1000,1000,3000,02/2021,joh@gmail.com
+8,8,abc,rekha joshi,2021-01-29T18:30:00.000Z,abc,Chief Marketing Officer,,1000,2000,3000,6000,02/2021,joh@gmail.com
+9,9,hr,john doe,2021-01-29 HH:mm:ss,hr,President,,,,,0,02/2021,joh@gmail.com
+10,10,HR,shr uti,2021-01-28T18:30:00.000Z,HR,Chairman Chief,,20000,1000,1000,22000,02/2021,joh@gmail.com
+11,11,Developer,VAL Val,2021-01-10,Developer,Director,,10000,100,100,10200,02/2021,joh@gmail.com
+12,12,Developer,VAL Val,2021-01-10,Developer,Director,,10000,100,100,10200,02/2021,joh@gmail.com
+13,13,Production,HrEmployee Emp,2021-01-17T18:30:00.000Z,Production,Executive Officer,,200,300,1000,1,1501,02/2021,joh@gmail.com
+14,14,Production,panel kernal,2021-01-24T18:30:00.000Z,Production,Chairman Chief,,1000,100,100,,0,02/2021,joh@gmail.com
+15,15,Marketing,abc xyz,2021-01-27T18:30:00.000Z,Marketing,Executive Officer,,100,200,100,,0,02/2021,joh@gmail.com
+16,16,,xyz yzx,,,,,,,,0,02/2021,joh@gmail.com
+17,17,,xyz yzx,,,,,,,,0,02/2021,joh@gmail.com
+18,18,HR,nancy joshi,2021-01-14T18:30:00.000Z,HR,Executive Officer,,100,100,100,100,400,02/2021,joh@gmail.com
+19,19,abc,Developer Developer,2021-01-14T18:30:00.000Z,abc,Sales Manager,,10000,100,200,10300,02/2021,joh@gmail.com
+20,20,HR,aman patel,2021-01-12T18:30:00.000Z,HR,Chairman Chief,,200,200,200,,0,02/2021,joh@gmail.com
+21,21,,dev test,,,,,,,,0,02/2021,joh@gmail.com
+22,23,,arpit khadkodkar,,,developer,,1212,3000000,3001212,02/2021,joh@gmail.com
+23,22,Production,Megha Patel,2021-01-03T18:30:00.000Z,Production,Executive Officer,,0,02/2021,joh@gmail.com
+24,24,,VAlue Vlaue,,,developer,,1212,3000000,3001212,02/2021,joh@gmail.com
+25,25,HR,dev devv,2020-12-29T18:30:00.000Z,HR,developer,,1212,3000000,3001212,02/2021,joh@gmail.com
+26,26,HR,arpit  testing,2020-12-25,HR,developer,,1212,3000000,3001212,02/2021,joh@gmail.com
+27,27,HR,devendra parihar,2020-12-25,HR,developer,,1212,3000000,3001212,02/2021,joh@gmail.com
+28,28,QA,Nihaika Joshi,1996-12-02,QA,developer,,1212,3000000,3001212,02/2021,joh@gmail.com
+29,29,Transformation,Jatin Sainani,2022-12-01,Transformation,developer,,1212,3000000,3001212,02/2021,joh@gmail.com
+30,30,PRODUCTION,test test,2020-11-20,PRODUCTION,developer,,1212,3000000,3001212,02/2021,joh@gmail.com
+31,31,HR,test test,2020-11-20,HR,developer,,1212,3000000,3001212,02/2021,joh@gmail.com
+32,32,Drop Down,Priyanka Sainani,01/01/2019,Drop Down,developer,,1212,3000000,3001212,02/2021,joh@gmail.com
+33,33,employee,Arpit khadkodkar,2020-11-18 00:00:00,employee,developer,,1212,3000000,1000,10,10,3002232,02/2021,joh@gmail.com
+34,34,HR,Happy Sharma,2021-03-01T18:30:00.000Z,HR,Executive,,12000,100,200,12300,03/2021,joh@gmail.com
+35,35,HR,Mihir patel,2021-02-23T18:30:00.000Z,HR,HR & Admin Manager,,500000,2100,2100,504200,03/2021,joh@gmail.com
+36,36,Marketing,Ankur Khamar,2021-02-22T18:30:00.000Z,Marketing,Marketing Manager,,10000,5000,3000,18000,03/2021,joh@gmail.com
+37,37,Production,Test  A,2021-02-02T18:30:00.000Z,Production,Finance Manager,,21000,1000,500,22500,03/2021,joh@gmail.com
+38,38,,Mac  employee,,,,,,,,0,03/2021,joh@gmail.com
+39,39,HR,johnii doeiii,29-01-2021,HR,President,,,,,0,03/2021,joh@gmail.com
+40,40,Production,piyush sharma,2021-01-31T18:30:00.000Z,Production,General Manager,,10000,1500,1500,13000,03/2021,joh@gmail.com
+41,41,Developer,W1 W1,2021-01-29,Developer,Officer,,1999,13333,13333,28665,03/2021,joh@gmail.com
+42,49,Production,TT2 t2,2021-01-29T18:30:00.000Z,Production,President,,1000,1000,1000,3000,03/2021,joh@gmail.com
+43,50,abc,Nikki Joshi,2021-01-30T18:30:00.000Z,abc,President,,1000,1000,1000,3000,03/2021,joh@gmail.com
+44,51,abc,rekha joshi,2021-01-29T18:30:00.000Z,abc,Chief Marketing Officer,,1000,2000,3000,6000,03/2021,joh@gmail.com
+45,52,hr,john doe,2021-01-29 HH:mm:ss,hr,President,,,,,0,03/2021,joh@gmail.com
+46,53,HR,shr uti,2021-01-28T18:30:00.000Z,HR,Chairman Chief,,20000,1000,1000,22000,03/2021,joh@gmail.com
+47,54,Developer,VAL Val,2021-01-10,Developer,Director,,10000,100,100,10200,03/2021,joh@gmail.com
+48,55,Developer,VAL Val,2021-01-10,Developer,Director,,10000,100,100,10200,03/2021,joh@gmail.com
+49,56,Production,HrEmployee Emp,2021-01-17T18:30:00.000Z,Production,Executive Officer,,200,300,1000,1,1501,03/2021,joh@gmail.com
+50,57,Production,panel kernal,2021-01-24T18:30:00.000Z,Production,Chairman Chief,,1000,100,100,,0,03/2021,joh@gmail.com
+51,75,Marketing,abc xyz,2021-01-27T18:30:00.000Z,Marketing,Executive Officer,,100,200,100,,0,03/2021,joh@gmail.com
+52,76,,xyz yzx,,,,,,,,0,03/2021,joh@gmail.com
+53,77,,xyz yzx,,,,,,,,0,03/2021,joh@gmail.com
+54,78,HR,nancy joshi,2021-01-14T18:30:00.000Z,HR,Executive Officer,,100,100,100,100,400,03/2021,joh@gmail.com
+55,79,abc,Developer Developer,2021-01-14T18:30:00.000Z,abc,Sales Manager,,10000,100,200,10300,03/2021,joh@gmail.com
+56,80,HR,aman patel,2021-01-12T18:30:00.000Z,HR,Chairman Chief,,200,200,200,,0,03/2021,joh@gmail.com
+57,81,,dev test,,,,,,,,0,03/2021,joh@gmail.com
+58,82,Production,Megha Patel,2021-01-03T18:30:00.000Z,Production,Executive Officer,,0,03/2021,joh@gmail.com
+59,83,,arpit khadkodkar,,,developer,,1212,3000000,3001212,03/2021,joh@gmail.com
+60,84,,VAlue Vlaue,,,developer,,1212,3000000,3001212,03/2021,joh@gmail.com
+61,85,HR,dev devv,2020-12-29T18:30:00.000Z,HR,developer,,1212,3000000,3001212,03/2021,joh@gmail.com
+62,86,HR,arpit  testing,2020-12-25,HR,developer,,1212,3000000,3001212,03/2021,joh@gmail.com
+63,87,HR,devendra parihar,2020-12-25,HR,developer,,1212,3000000,3001212,03/2021,joh@gmail.com
+64,88,QA,Nihaika Joshi,1996-12-02,QA,developer,,1212,3000000,3001212,03/2021,joh@gmail.com
+65,89,Transformation,Jatin Sainani,2022-12-01,Transformation,developer,,1212,3000000,3001212,03/2021,joh@gmail.com
+66,90,PRODUCTION,test test,2020-11-20,PRODUCTION,developer,,1212,3000000,3001212,03/2021,joh@gmail.com
+67,91,HR,test test,2020-11-20,HR,developer,,1212,3000000,3001212,03/2021,joh@gmail.com
+68,92,Drop Down,Priyanka Sainani,01/01/2019,Drop Down,developer,,1212,3000000,3001212,03/2021,joh@gmail.com
+69,93,employee,HRM Mobile,2020-11-18 00:00:00,employee,developer,,1212,3000000,1000,10,10,3002232,03/2021,joh@gmail.com

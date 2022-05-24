@@ -1,0 +1,11 @@
+http://3.128.150.43/
+admin@grocery.com
+123456
+
+http://3.128.150.43/
+manager@grocery.com
+123456
+
+https://drive.google.com/file/d/1d6-fmouFKrs22ZMJVCLzMuR5PptNrwFg/view?usp=sharing
+
+https://drive.google.com/file/d/1Aqz_vQKU_-EZq8T1WGnDXCgdIBE6wbrs/view?usp=sharing

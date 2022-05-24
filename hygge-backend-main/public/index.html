@@ -1,0 +1,41 @@
+<html>
+<head></head>
+
+<body>
+  <ul id="message"></ul>
+  <script src="/socket.io/socket.io.js"></script>
+  <script>
+    var socket = io('http://20.74.180.163:4000');
+
+    socket.on('message', function(msg){
+      console.log(msg);
+      var node = document.createElement("LI");
+      var textnode = document.createTextNode(JSON.stringify(msg));
+      node.appendChild(textnode);
+      document.getElementById("message").appendChild(node);
+    });
+  </script>
+  <h>R</h>
+</body>
+</html>
+
+<!-- <html>
+<head></head>
+
+<body>
+  <ul id="message"></ul>
+  <script src="/socket.io/socket.io.js"></script>
+  <script>
+    var socket = io('http://157.245.104.180:5000');
+
+    socket.on('chat message', function(msg){
+      console.log(msg);
+      var node = document.createElement("LI");
+      var textnode = document.createTextNode(JSON.stringify(msg));
+      node.appendChild(textnode);
+      document.getElementById("message").appendChild(node);
+    });
+  </script>
+  <h>R</h>
+</body>
+</html> -->
